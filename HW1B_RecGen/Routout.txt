@@ -1,0 +1,25 @@
+Script started on Fri 16 Sep 2022 05:31:38 PM PDT
+]0;mekae002@empress:~/cs421/HWdone/Recognizer[?1034h[mekae002@empress Recognizer]$ ls
+[0m[01;32ma.out[0m  recognizer.cpp  ,Routout.txt
+]0;mekae002@empress:~/cs421/HWdone/Recognizer[mekae002@empress Recognizer]$ g++ recognizer.cpp
+]0;mekae002@empress:~/cs421/HWdone/Recognizer[mekae002@empress Recognizer]$ ls
+[0m[01;32ma.out[0m  recognizer.cpp  ,Routout.txt
+]0;mekae002@empress:~/cs421/HWdone/Recognizer[mekae002@empress Recognizer]$ ./a.out
+Enter a's or b's: (or 'end' to end the program)a
+YES IN L
+Enter a's or b's: (or 'end' to end the program)b
+YES IN L
+Enter a's or b's: (or 'end' to end the program)aabba
+YES IN L
+Enter a's or b's: (or 'end' to end the program)c
+NO NOT IN L
+Enter a's or b's: (or 'end' to end the program)ac
+NO NOT IN L
+Enter a's or b's: (or 'end' to end the program)db
+NO NOT IN L
+Enter a's or b's: (or 'end' to end the program)end
+NO NOT IN L
+]0;mekae002@empress:~/cs421/HWdone/Recognizer[mekae002@empress Recognizer]$ exit
+exit
+
+Script done on Fri 16 Sep 2022 05:33:36 PM PDT

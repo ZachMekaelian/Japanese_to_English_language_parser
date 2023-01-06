@@ -1,0 +1,207 @@
+Script started on Sat 05 Nov 2022 11:12:13 PM PDT
+]0;mekae002@empress:~/cs421/HWdone/HW3AP2[?1034h[mekae002@empress HW3AP2]$ g++ ll1.cpcat[C[C[C[C[C[C[C[gcc[C[C[C[C[C[C[C[cat[C[C[C[C[C[C[C[g++[C[C[C[C[C[C[C[C
+]0;mekae002@empress:~/cs421/HWdone/HW3AP2[mekae002@empress HW3AP2]$ g++ ll1.cpcat[C[C[C[C[C[C[C[gcc[C[C[C[C[C[C[C++[C[C[C[C[C[C[C[lsg++ ll1.ccc[C[C[C[C[C[C[C[cat[C[C[C[C[C[C[C[g++[C[C[C[C[C[C[C[lsg++ ll1.cplscd HW3APlscd HW3APlsg++ ll1.cplsg++ ll1.cpcat[C[C[C[C[C[C[C[gcc[C[C[C[C[C[C[C++[C[C[C[C[C[C[C[lsg++ ll1.ccc[C[C[C[C[C[C[C[cat[C[C[C[C[C[C[C[g++[C[C[C[C[C[C[C[[Kg++ ll1.cpcat[C[C[C[C[C[C[C[gcc[C[C[C[C[C[C[C++[C[C[C[C[C[C[C[lsg++ ll1.ccc[C[C[C[C[C[C[C[cat[C[C[C[C[C[C[C[g++[C[C[C[C[C[C[C[ls[[[K./a.out
+S| 	2 A 2 	3 A 3 
+A| 	2 2 	3 3 
+B| 		
+Enter a string made of 2's and/or 3's: 2332
+Stack:S
+-------------------------
+S
+-------------------------
+current char is:2
+Invalid column.
+Pushing rhs of a rule to the stack.
+2
+A
+2
+-------------------------
+current char is:2
+match!
+
+A
+2
+-------------------------
+current char is:3
+Invalid column.
+Pushing rhs of a rule to the stack.
+3
+3
+2
+-------------------------
+current char is:3
+match!
+
+3
+2
+-------------------------
+current char is:3
+match!
+
+2
+-------------------------
+current char is:2
+match!
+
+Stack
+[ Empty ]
+--------------------------
+Great work!
+]0;mekae002@empress:~/cs421/HWdone/HW3AP2[mekae002@empress HW3AP2]$ 3223
+bash: 3223: command not found
+]0;mekae002@empress:~/cs421/HWdone/HW3AP2[mekae002@empress HW3AP2]$ 122
+bash: 122: command not found
+]0;mekae002@empress:~/cs421/HWdone/HW3AP2[mekae002@empress HW3AP2]$ 2332222
+bash: 2332222: command not found
+]0;mekae002@empress:~/cs421/HWdone/HW3AP2[mekae002@empress HW3AP2]$ 233222[4P1232./a.oug++ ll1.cpcat[C[C[C[C[C[C[C[g++[C[C[C[C[C[C[C[[4P./a.out
+S| 	2 A 2 	3 A 3 
+A| 	2 2 	3 3 
+B| 		
+Enter a string made of 2's and/or 3's: ^[[A^[[A^[3223
+Stack:S
+-------------------------
+S
+-------------------------
+current char is:3
+Invalid column.
+Pushing rhs of a rule to the stack.
+3
+A
+3
+-------------------------
+current char is:3
+match!
+
+A
+3
+-------------------------
+current char is:2
+Invalid column.
+Pushing rhs of a rule to the stack.
+2
+2
+3
+-------------------------
+current char is:2
+match!
+
+2
+3
+-------------------------
+current char is:2
+match!
+
+3
+-------------------------
+current char is:3
+match!
+
+Stack
+[ Empty ]
+--------------------------
+Great work!
+]0;mekae002@empress:~/cs421/HWdone/HW3AP2[mekae002@empress HW3AP2]$ ./a.out
+S| 	2 A 2 	3 A 3 
+A| 	2 2 	3 3 
+B| 		
+Enter a string made of 2's and/or 3's: ^[[A^[122
+Stack:S
+-------------------------
+S
+-------------------------
+current char is:1
+Invalid column.
+Invalid!
+]0;mekae002@empress:~/cs421/HWdone/HW3AP2[mekae002@empress HW3AP2]$ ./a.ou233222./a.out
+S| 	2 A 2 	3 A 3 
+A| 	2 2 	3 3 
+B| 		
+Enter a string made of 2's and/or 3's: 2332222
+Stack:S
+-------------------------
+S
+-------------------------
+current char is:2
+Invalid column.
+Pushing rhs of a rule to the stack.
+2
+A
+2
+-------------------------
+current char is:2
+match!
+
+A
+2
+-------------------------
+current char is:3
+Invalid column.
+Pushing rhs of a rule to the stack.
+3
+3
+2
+-------------------------
+current char is:3
+match!
+
+3
+2
+-------------------------
+current char is:3
+match!
+
+2
+-------------------------
+current char is:2
+match!
+
+Stack
+[ Empty ]
+--------------------------
+current char is: 2
+]0;mekae002@empress:~/cs421/HWdone/HW3AP2[mekae002@empress HW3AP2]$ ./a.out
+S| 	2 A 2 	3 A 3 
+A| 	2 2 	3 3 
+B| 		
+Enter a string made of 2's and/or 3's: 2333
+Stack:S
+-------------------------
+S
+-------------------------
+current char is:2
+Invalid column.
+Pushing rhs of a rule to the stack.
+2
+A
+2
+-------------------------
+current char is:2
+match!
+
+A
+2
+-------------------------
+current char is:3
+Invalid column.
+Pushing rhs of a rule to the stack.
+3
+3
+2
+-------------------------
+current char is:3
+match!
+
+3
+2
+-------------------------
+current char is:3
+match!
+
+2
+-------------------------
+current char is:3
+mismatch
+]0;mekae002@empress:~/cs421/HWdone/HW3AP2[mekae002@empress HW3AP2]$ exit
+exit
+
+Script done on Sat 05 Nov 2022 11:14:50 PM PDT

@@ -1,0 +1,29 @@
+
+Fill this out and submit this with the executable.
+
+Group#: 6
+
+1.	Indicate who did what by giving names.
+Must have divided the work as specified by the assignment
+sheet. If the member did not fully contribute to the assigned part, 
+do not list his/her name!!!!!
+o	Member A tasks(DFA, tables, scanner)- who: Sonia Cheng made the DFA graph and helped code
+o	Member B tasks(DFA, tables, scanner)- who: Christian Contreras programmed the scanner() function
+o	Member C tasks(word, period)- who: Zachary Mekaelian programed the word() function
+
+2.     Who came to the meeting to test everything together? 
+         All of us did.
+3.     You have included all the required comments? (RE and Done By): 
+         Yes!
+4.     Your program works correctly on scannertest1 and scannertest2?
+          Yes!
+
+5.     Any other remarks.
+       We have learned that the more time we dedicate, the better results we see. 
+       Collaboration is good skill to apply when it comes to work in teams. 
+
+            We had a productive and good time working with each other to produce the code!
+
+checkIt_LK in 24 hours and immediately correct and re-submit.
+
+

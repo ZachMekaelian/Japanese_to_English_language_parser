@@ -1,0 +1,102 @@
+Script started on Sat 08 Oct 2022 07:20:03 PM PDT
+]0;mekae002@empress:~/cs421/HWdone/HW2B/prog2[?1034h[mekae002@empress prog2]$ ls
+dfas.txt  td.cpp  Test1.txt  ,Test2.txt  trs.txt
+]0;mekae002@empress:~/cs421/HWdone/HW2B/prog2[mekae002@empress prog2]$ ex[2Pcd prolscd .[3P/cs/recordhw_LK Test1.txlscd .[3Pcd prolsex[2P[Kg++ td.cpp
+]0;mekae002@empress:~/cs421/HWdone/HW2B/prog2[mekae002@empress prog2]$ ./a.out
+This is a table driven scanner. Needs trs.txt and dfas.txt.
+States are 0 to 9 and chars are a to d
+a b c d
+State 0:0 1 
+State 1:
+State 2:2 3 
+State 3:
+State 4:
+State 5:
+State 6:
+State 7:
+State 8:
+State 9:
+token1: 0 is start and ends in 1
+token2: 2 is start and ends in 3
+.....done reading tables....
+@@Enter a string: ab
+
+----Trying DFA 0----
+state: 0 char: a 
+new state: 0 
+state: 0 char: b 
+new state: 1 
+
+Found token token1
+do control-C to quit
+@@Enter a string: abb
+
+----Trying DFA 0----
+state: 0 char: a 
+new state: 0 
+state: 0 char: b 
+new state: 1 
+----Trying DFA 1----
+state: 2 char: a 
+new state: -1 
+Lexical Error!
+do control-C to quit
+@@Enter a string: aaab
+
+----Trying DFA 0----
+state: 0 char: a 
+new state: 0 
+state: 0 char: a 
+new state: 0 
+state: 0 char: a 
+new state: 0 
+state: 0 char: b 
+new state: 1 
+
+Found token token1
+do control-C to quit
+@@Enter a string: cd
+
+----Trying DFA 0----
+state: 0 char: c 
+new state: -1 
+----Trying DFA 1----
+state: 2 char: c 
+new state: 2 
+state: 2 char: d 
+new state: 3 
+Found token token2
+do control-C to quit
+@@Enter a string: cdd
+
+----Trying DFA 0----
+state: 0 char: c 
+new state: -1 
+----Trying DFA 1----
+state: 2 char: c 
+new state: 2 
+state: 2 char: d 
+new state: 3 
+Lexical Error!
+do control-C to quit
+@@Enter a string: cccd
+
+----Trying DFA 0----
+state: 0 char: c 
+new state: -1 
+----Trying DFA 1----
+state: 2 char: c 
+new state: 2 
+state: 2 char: c 
+new state: 2 
+state: 2 char: c 
+new state: 2 
+state: 2 char: d 
+new state: 3 
+Found token token2
+do control-C to quit
+@@Enter a string: ^C
+]0;mekae002@empress:~/cs421/HWdone/HW2B/prog2[mekae002@empress prog2]$ exit
+exit
+
+Script done on Sat 08 Oct 2022 07:21:30 PM PDT

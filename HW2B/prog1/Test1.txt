@@ -1,0 +1,285 @@
+Script started on Sat 08 Oct 2022 06:13:58 PM PDT
+]0;mekae002@empress:~/cs421/HWdone/HW2B/prog1[?1034h[mekae002@empress prog1]$ ./a.oulsg++ fa.clsg++ fa.cpp
+]0;mekae002@empress:~/cs421/HWdone/HW2B/prog1[mekae002@empress prog1]$ g++ fa.c[3P./a.out
+Enter the input file name:fain.txt
+
+.....Scanner was called...
+>>>>>Word is:cd_8c
+Trying the mytoken machine...
+current state: 0
+character: c
+current state: 1
+character: d
+current state: 2
+character: _
+I am stuck in state 2
+Trying the indentifier machine
+current state: 0
+character: c
+current state: 1
+character: d
+current state: 1
+character: _
+current state: 1
+character: 8
+current state: 1
+character: c
+>>>>>Type is:IDENT
+
+.....Scanner was called...
+>>>>>Word is:c_d_8_c
+Trying the mytoken machine...
+current state: 0
+character: c
+current state: 1
+character: _
+I am stuck in state 1
+Trying the indentifier machine
+current state: 0
+character: c
+current state: 1
+character: _
+current state: 1
+character: d
+current state: 1
+character: _
+current state: 1
+character: 8
+current state: 1
+character: _
+current state: 1
+character: c
+>>>>>Type is:IDENT
+
+.....Scanner was called...
+>>>>>Word is:.89
+Trying the mytoken machine...
+current state: 0
+character: .
+I am stuck in state 0
+Trying the indentifier machine
+current state: 0
+character: .
+I am stuck in state 0
+Trying the real number machine
+current state: 0
+character: .
+current state: 1
+character: 8
+current state: 2
+character: 9
+>>>>>Type is:REAL
+
+.....Scanner was called...
+>>>>>Word is:89.9
+Trying the mytoken machine...
+current state: 0
+character: 8
+I am stuck in state 0
+Trying the indentifier machine
+current state: 0
+character: 8
+I am stuck in state 0
+Trying the real number machine
+current state: 0
+character: 8
+current state: 0
+character: 9
+current state: 0
+character: .
+current state: 1
+character: 9
+>>>>>Type is:REAL
+
+.....Scanner was called...
+>>>>>Word is:89
+Trying the mytoken machine...
+current state: 0
+character: 8
+I am stuck in state 0
+Trying the indentifier machine
+current state: 0
+character: 8
+I am stuck in state 0
+Trying the real number machine
+current state: 0
+character: 8
+current state: 0
+character: 9
+Trying the integer machine
+current state: 0
+character: 8
+current state: 1
+character: 9
+>>>>>Type is:INT
+
+.....Scanner was called...
+>>>>>Word is:cd&e
+Trying the mytoken machine...
+current state: 0
+character: c
+current state: 1
+character: d
+current state: 2
+character: &
+I am stuck in state 2
+Trying the indentifier machine
+current state: 0
+character: c
+current state: 1
+character: d
+current state: 1
+character: &
+I am stuck in state 1
+Trying the real number machine
+current state: 0
+character: c
+I am stuck in state 0
+Trying the integer machine
+current state: 0
+character: c
+I am stuck in state 0
+>>>>>Lexical Error: The string is not in my language
+>>>>>Type is:ERROR
+
+.....Scanner was called...
+>>>>>Word is:89.6
+Trying the mytoken machine...
+current state: 0
+character: 8
+I am stuck in state 0
+Trying the indentifier machine
+current state: 0
+character: 8
+I am stuck in state 0
+Trying the real number machine
+current state: 0
+character: 8
+current state: 0
+character: 9
+current state: 0
+character: .
+current state: 1
+character: 6
+I am stuck in state 1
+Trying the integer machine
+current state: 0
+character: 8
+current state: 1
+character: 9
+current state: 1
+character: .
+I am stuck in state 1
+>>>>>Lexical Error: The string is not in my language
+>>>>>Type is:ERROR
+
+.....Scanner was called...
+>>>>>Word is:8c9
+Trying the mytoken machine...
+current state: 0
+character: 8
+I am stuck in state 0
+Trying the indentifier machine
+current state: 0
+character: 8
+I am stuck in state 0
+Trying the real number machine
+current state: 0
+character: 8
+current state: 0
+character: c
+I am stuck in state 0
+Trying the integer machine
+current state: 0
+character: 8
+current state: 1
+character: c
+I am stuck in state 1
+>>>>>Lexical Error: The string is not in my language
+>>>>>Type is:ERROR
+
+.....Scanner was called...
+>>>>>Word is:88..8
+Trying the mytoken machine...
+current state: 0
+character: 8
+I am stuck in state 0
+Trying the indentifier machine
+current state: 0
+character: 8
+I am stuck in state 0
+Trying the real number machine
+current state: 0
+character: 8
+current state: 0
+character: 8
+current state: 0
+character: .
+current state: 1
+character: .
+I am stuck in state 1
+Trying the integer machine
+current state: 0
+character: 8
+current state: 1
+character: 8
+current state: 1
+character: .
+I am stuck in state 1
+>>>>>Lexical Error: The string is not in my language
+>>>>>Type is:ERROR
+
+.....Scanner was called...
+>>>>>Word is:89.
+Trying the mytoken machine...
+current state: 0
+character: 8
+I am stuck in state 0
+Trying the indentifier machine
+current state: 0
+character: 8
+I am stuck in state 0
+Trying the real number machine
+current state: 0
+character: 8
+current state: 0
+character: 9
+current state: 0
+character: .
+Trying the integer machine
+current state: 0
+character: 8
+current state: 1
+character: 9
+current state: 1
+character: .
+I am stuck in state 1
+>>>>>Lexical Error: The string is not in my language
+>>>>>Type is:ERROR
+
+.....Scanner was called...
+>>>>>Word is:EOF
+Trying the mytoken machine...
+current state: 0
+character: E
+I am stuck in state 0
+Trying the indentifier machine
+current state: 0
+character: E
+I am stuck in state 0
+Trying the real number machine
+current state: 0
+character: E
+I am stuck in state 0
+Trying the integer machine
+current state: 0
+character: E
+I am stuck in state 0
+>>>>>Lexical Error: The string is not in my language
+>>>>>End of File encountered
+]0;mekae002@empress:~/cs421/HWdone/HW2B/prog1[mekae002@empress prog1]$ ./a.oug++ fa.c[3P./a.oulsg++ fa.clscd prog[1PHWdo[2Pcs4ls./a.oulsg++ fa.clscd prolscd HW2lscd HWdonlscd cs4ls/cs/recordhw_LK Test1.tx./a.out[g++ mat.cp[4P./a.oug++ mat.cpls./a.oulsg++ mat.cp[4P./a.oug++ mat.cp[4P./a.ou/cs/recordhw_LK Test1.txls/cs/recordhw_LK Test1.txlscd cs4lscd cs4ls/cs/recordhw_LK Test1.tx./a.out[g++ mat.cp[4P./a.oug++ mat.cpls./a.oug++ mat.cpls./a.oug++ mat.cpls./a.oug++ mat.cp[4P./a.oulsg++ mat.cp[4P./a.oug++ mat.cplsg++ mat.cp[4Pcd HWdo[1Pcs4[4Pex./a.oug++ mat.cpls./a.oug++ mat.cpls./a.ouaolsg++ mat.cpcat[C[C[C[C[C[C[C[g++[C[C[C[C[C[C[C[lscd HWdo[2Pcs4ls[Kcat lines.txls./a.oulscat lines.txlslscat lines.txls./a.oulsg++ mat.ccc[C[C[C[C[C[C[C[[4Pcd HW2lscd HWdonlscd HWdonlscd cs4ls/cs/recordhw_LK Goutout.txls/cs/recordhw_LK Goutout.txls/cs/recordhw_LK Goutout.txls/cs/recordhw_LK Goutout.txlscd Generatlscd HWdonlscd HWdonlscd Generatls/cs/recordhw_LK Goutout.txlscd cs4lscd HWdonlscd HW2gcc mat.c++[C[C[C[C[C[C[C[ls./a.oulscat lines.txlslscd cs42[1PHWdo[2P2lsg++ mat.cpcat[C[C[C[C[C[C[C[g++[C[C[C[C[C[C[C[ls./a.ao[1Poulsg++ mat.cp[4P./a.oulsg++ mat.cp[4P./a.ou[3Pexcd cs42HWdo[2P2g++ mat.cplsg++ mat.cp[4P./a.oug++ mat.cpls./a.oug++ mat.cp[4P./a.oulsg++ mat.cp[4P./a.oulsg++ mat.cp[4P./a.oulsg++ mat.cp[4P./a.oug++ mat.cp[4P./a.ou/cs/recordhw_LK Test1.txlscd cs4lscd HWdonlscd HW2lscd prolsg++ fa.cls./a.oulscd cs42[1PHWdo[2Pprolsg++ fa.cls./a.oug++ fa.c[3P./a.ou[Kend
+bash: end: command not found
+]0;mekae002@empress:~/cs421/HWdone/HW2B/prog1[mekae002@empress prog1]$ en./a.oug++ fa.c[3P./a.oulsg++ fa.clscd prog[1PHWdo[2Pprog[1PHWdo[2Pcs4ls./a.oulsg++ fa.clscd prolscd HW2lscd HWdonlscd cs4ls/cs/recordhw_LK Test1.tx./a.out[/cs/recordhw_LK Test1.tx./a.out[g++ mat.cp[4P./a.ou/cs/recordhw_LK Test1.txlscd cs4lscd HWdonlscd HW2lscd prolsg++ fa.cls./a.oulscd cs42[1PHWdo[2Pprolsg++ fa.cls./a.oug++ fa.c[3P./a.ou[4Pen[Kexit
+exit
+
+Script done on Sat 08 Oct 2022 06:18:07 PM PDT

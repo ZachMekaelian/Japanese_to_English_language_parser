@@ -1,0 +1,560 @@
+Script started on Thu 15 Dec 2022 05:40:19 PM PST
+]0;mekae002@empress:~/cs421/HWdone/Scanner[?1034h[mekae002@empress Scanner]$ ls
+[0m[01;32ma.out[0m              scanner.cpp  scannertest1  scannerWork.txt
+reservedwords.txt  [01;32mscanner.out[0m  scannertest2  ,test1.txt
+]0;mekae002@empress:~/cs421/HWdone/Scanner[mekae002@empress Scanner]$ G++[[[[Kg++ scanner.cpp
+]0;mekae002@empress:~/cs421/HWdone/Scanner[mekae002@empress Scanner]$ ls
+[0m[01;32ma.out[0m              scanner.cpp  scannertest1  scannerWork.txt
+reservedwords.txt  [01;32mscanner.out[0m  scannertest2  ,test1.txt
+]0;mekae002@empress:~/cs421/HWdone/Scanner[mekae002@empress Scanner]$ ./a.out
+Enter the input file name: scannertest1
+
+...Scanner was called...
+Type is:PRONOUN
+Word is:watashi
+
+...Scanner was called...
+Type is:SUBJECT
+Word is:wa
+
+...Scanner was called...
+Type is:WORD1
+Word is:rika
+
+...Scanner was called...
+Type is:IS
+Word is:desu
+
+...Scanner was called...
+Type is:PERIOD
+Word is:.
+
+...Scanner was called...
+Type is:PRONOUN
+Word is:watashi
+
+...Scanner was called...
+Type is:SUBJECT
+Word is:wa
+
+...Scanner was called...
+Type is:WORD1
+Word is:sensei
+
+...Scanner was called...
+Type is:IS
+Word is:desu
+
+...Scanner was called...
+Type is:PERIOD
+Word is:.
+
+...Scanner was called...
+Type is:PRONOUN
+Word is:watashi
+
+...Scanner was called...
+Type is:SUBJECT
+Word is:wa
+
+...Scanner was called...
+Type is:WORD1
+Word is:ryouri
+
+...Scanner was called...
+Type is:OBJECT
+Word is:o
+
+...Scanner was called...
+Type is:WORD2
+Word is:yarI
+
+...Scanner was called...
+Type is:VERB
+Word is:masu
+
+...Scanner was called...
+Type is:PERIOD
+Word is:.
+
+...Scanner was called...
+Type is:PRONOUN
+Word is:watashi
+
+...Scanner was called...
+Type is:SUBJECT
+Word is:wa
+
+...Scanner was called...
+Type is:WORD1
+Word is:gohan
+
+...Scanner was called...
+Type is:OBJECT
+Word is:o
+
+...Scanner was called...
+Type is:WORD1
+Word is:seito
+
+...Scanner was called...
+Type is:DESTINATION
+Word is:ni
+
+...Scanner was called...
+Type is:WORD2
+Word is:agE
+
+...Scanner was called...
+Type is:VERBPAST
+Word is:mashita
+
+...Scanner was called...
+Type is:PERIOD
+Word is:.
+
+...Scanner was called...
+Type is:CONNECTOR
+Word is:shikashi
+
+...Scanner was called...
+Type is:WORD1
+Word is:seito
+
+...Scanner was called...
+Type is:SUBJECT
+Word is:wa
+
+...Scanner was called...
+Type is:WORD2
+Word is:yorokobI
+
+...Scanner was called...
+Type is:VERBPASTNEG
+Word is:masendeshita
+
+...Scanner was called...
+Type is:PERIOD
+Word is:.
+
+...Scanner was called...
+Type is:CONNECTOR
+Word is:dakara
+
+...Scanner was called...
+Type is:PRONOUN
+Word is:watashi
+
+...Scanner was called...
+Type is:SUBJECT
+Word is:wa
+
+...Scanner was called...
+Type is:WORD1
+Word is:kanashii
+
+...Scanner was called...
+Type is:WAS
+Word is:deshita
+
+...Scanner was called...
+Type is:PERIOD
+Word is:.
+
+...Scanner was called...
+Type is:CONNECTOR
+Word is:soshite
+
+...Scanner was called...
+Type is:PRONOUN
+Word is:watashi
+
+...Scanner was called...
+Type is:SUBJECT
+Word is:wa
+
+...Scanner was called...
+Type is:WORD1
+Word is:toire
+
+...Scanner was called...
+Type is:DESTINATION
+Word is:ni
+
+...Scanner was called...
+Type is:WORD2
+Word is:ikI
+
+...Scanner was called...
+Type is:VERBPAST
+Word is:mashita
+
+...Scanner was called...
+Type is:PERIOD
+Word is:.
+
+...Scanner was called...
+Type is:PRONOUN
+Word is:watashi
+
+...Scanner was called...
+Type is:SUBJECT
+Word is:wa
+
+...Scanner was called...
+Type is:WORD2
+Word is:nakI
+
+...Scanner was called...
+Type is:VERBPAST
+Word is:mashita
+
+...Scanner was called...
+Type is:PERIOD
+Word is:.
+
+...Scanner was called...
+End of file is encountered.
+]0;mekae002@empress:~/cs421/HWdone/Scanner[mekae002@empress Scanner]$ ./a.ouls./a.out
+Enter the input file name: ^[scannertest2
+
+...Scanner was called...
+Type is:WORD1
+Word is:daigaku
+
+...Scanner was called...
+Lexical Error: college is not a valid token
+Type is:ERROR
+Word is:college
+
+...Scanner was called...
+Type is:WORD1
+Word is:kurasu
+
+...Scanner was called...
+Lexical Error: class is not a valid token
+Type is:ERROR
+Word is:class
+
+...Scanner was called...
+Type is:WORD1
+Word is:hon
+
+...Scanner was called...
+Lexical Error: book is not a valid token
+Type is:ERROR
+Word is:book
+
+...Scanner was called...
+Type is:WORD1
+Word is:tesuto
+
+...Scanner was called...
+Lexical Error: test is not a valid token
+Type is:ERROR
+Word is:test
+
+...Scanner was called...
+Type is:WORD1
+Word is:ie
+
+...Scanner was called...
+Lexical Error: home* is not a valid token
+Type is:ERROR
+Word is:home*
+
+...Scanner was called...
+Type is:WORD1
+Word is:isu
+
+...Scanner was called...
+Lexical Error: chair is not a valid token
+Type is:ERROR
+Word is:chair
+
+...Scanner was called...
+Type is:WORD1
+Word is:seito
+
+...Scanner was called...
+Lexical Error: student is not a valid token
+Type is:ERROR
+Word is:student
+
+...Scanner was called...
+Type is:WORD1
+Word is:sensei
+
+...Scanner was called...
+Lexical Error: teacher is not a valid token
+Type is:ERROR
+Word is:teacher
+
+...Scanner was called...
+Type is:WORD1
+Word is:tomodachi
+
+...Scanner was called...
+Lexical Error: friend is not a valid token
+Type is:ERROR
+Word is:friend
+
+...Scanner was called...
+Type is:WORD1
+Word is:jidoosha
+
+...Scanner was called...
+Lexical Error: car is not a valid token
+Type is:ERROR
+Word is:car
+
+...Scanner was called...
+Type is:WORD1
+Word is:gyuunyuu
+
+...Scanner was called...
+Lexical Error: milk is not a valid token
+Type is:ERROR
+Word is:milk
+
+...Scanner was called...
+Type is:WORD1
+Word is:sukiyaki
+
+...Scanner was called...
+Type is:WORD1
+Word is:tenpura
+
+...Scanner was called...
+Type is:WORD1
+Word is:sushi
+
+...Scanner was called...
+Type is:WORD1
+Word is:biiru
+
+...Scanner was called...
+Lexical Error: beer is not a valid token
+Type is:ERROR
+Word is:beer
+
+...Scanner was called...
+Type is:WORD1
+Word is:sake
+
+...Scanner was called...
+Type is:WORD1
+Word is:tokyo
+
+...Scanner was called...
+Type is:WORD1
+Word is:kyuushuu
+
+...Scanner was called...
+Lexical Error: Osaka is not a valid token
+Type is:ERROR
+Word is:Osaka
+
+...Scanner was called...
+Type is:WORD1
+Word is:choucho
+
+...Scanner was called...
+Lexical Error: butterfly is not a valid token
+Type is:ERROR
+Word is:butterfly
+
+...Scanner was called...
+Type is:WORD1
+Word is:an
+
+...Scanner was called...
+Type is:WORD1
+Word is:idea
+
+...Scanner was called...
+Type is:WORD1
+Word is:yasashii
+
+...Scanner was called...
+Lexical Error: easy is not a valid token
+Type is:ERROR
+Word is:easy
+
+...Scanner was called...
+Type is:WORD1
+Word is:muzukashii
+
+...Scanner was called...
+Lexical Error: difficult is not a valid token
+Type is:ERROR
+Word is:difficult
+
+...Scanner was called...
+Type is:WORD1
+Word is:ureshii
+
+...Scanner was called...
+Lexical Error: pleased is not a valid token
+Type is:ERROR
+Word is:pleased
+
+...Scanner was called...
+Type is:WORD1
+Word is:shiawase
+
+...Scanner was called...
+Lexical Error: happy is not a valid token
+Type is:ERROR
+Word is:happy
+
+...Scanner was called...
+Type is:WORD1
+Word is:kanashii
+
+...Scanner was called...
+Lexical Error: sad is not a valid token
+Type is:ERROR
+Word is:sad
+
+...Scanner was called...
+Type is:WORD1
+Word is:omoi
+
+...Scanner was called...
+Lexical Error: heavy is not a valid token
+Type is:ERROR
+Word is:heavy
+
+...Scanner was called...
+Type is:WORD1
+Word is:oishii
+
+...Scanner was called...
+Lexical Error: delicious is not a valid token
+Type is:ERROR
+Word is:delicious
+
+...Scanner was called...
+Type is:WORD1
+Word is:tennen
+
+...Scanner was called...
+Lexical Error: natural is not a valid token
+Type is:ERROR
+Word is:natural
+
+...Scanner was called...
+Type is:WORD2
+Word is:nakI
+
+...Scanner was called...
+Lexical Error: cry is not a valid token
+Type is:ERROR
+Word is:cry
+
+...Scanner was called...
+Type is:WORD2
+Word is:ikI
+
+...Scanner was called...
+Lexical Error: go* is not a valid token
+Type is:ERROR
+Word is:go*
+
+...Scanner was called...
+Type is:WORD2
+Word is:tabE
+
+...Scanner was called...
+Lexical Error: eat is not a valid token
+Type is:ERROR
+Word is:eat
+
+...Scanner was called...
+Type is:WORD2
+Word is:ukE
+
+...Scanner was called...
+Lexical Error: take* is not a valid token
+Type is:ERROR
+Word is:take*
+
+...Scanner was called...
+Type is:WORD2
+Word is:kakI
+
+...Scanner was called...
+Lexical Error: write is not a valid token
+Type is:ERROR
+Word is:write
+
+...Scanner was called...
+Type is:WORD2
+Word is:yomI
+
+...Scanner was called...
+Lexical Error: read is not a valid token
+Type is:ERROR
+Word is:read
+
+...Scanner was called...
+Type is:WORD2
+Word is:nomI
+
+...Scanner was called...
+Lexical Error: drink is not a valid token
+Type is:ERROR
+Word is:drink
+
+...Scanner was called...
+Type is:WORD2
+Word is:agE
+
+...Scanner was called...
+Lexical Error: give is not a valid token
+Type is:ERROR
+Word is:give
+
+...Scanner was called...
+Type is:WORD2
+Word is:moraI
+
+...Scanner was called...
+Lexical Error: receive is not a valid token
+Type is:ERROR
+Word is:receive
+
+...Scanner was called...
+Type is:WORD2
+Word is:butsI
+
+...Scanner was called...
+Lexical Error: hit is not a valid token
+Type is:ERROR
+Word is:hit
+
+...Scanner was called...
+Type is:WORD2
+Word is:kerI
+
+...Scanner was called...
+Lexical Error: kick is not a valid token
+Type is:ERROR
+Word is:kick
+
+...Scanner was called...
+Type is:WORD2
+Word is:shaberI
+
+...Scanner was called...
+Lexical Error: talk is not a valid token
+Type is:ERROR
+Word is:talk
+
+...Scanner was called...
+End of file is encountered.
+]0;mekae002@empress:~/cs421/HWdone/Scanner[mekae002@empress Scanner]$ exit
+exit
+
+Script done on Thu 15 Dec 2022 05:41:49 PM PST

@@ -1,0 +1,13 @@
+Script started on Fri 30 Sep 2022 05:56:22 PM PDT
+]0;mekae002@empress:~/cs421/HWdone/HW2A[?1034h[mekae002@empress HW2A]$ ls
+[0m[01;32ma.out[0m  lines.txt  mat.cpp  table.txt  ,Test1.txt
+]0;mekae002@empress:~/cs421/HWdone/HW2A[mekae002@empress HW2A]$ ./a.oug++ mat.cplsg++ mat.cpp
+]0;mekae002@empress:~/cs421/HWdone/HW2A[mekae002@empress HW2A]$ g++ mat.cpls./a.out
+Reading table from lines.txt...
+0| m n o | p q r | - - - | - - - 
+1| - - - | - - - | s t u | v w x 
+2| - - - | - - - | - - - | - - - 
+]0;mekae002@empress:~/cs421/HWdone/HW2A[mekae002@empress HW2A]$ exit
+exit
+
+Script done on Fri 30 Sep 2022 05:56:41 PM PDT
